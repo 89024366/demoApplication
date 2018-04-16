@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.demoapplication">
+<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="mg.studio.activitylifecycle.MainActivity"></activity>
+        <activity android:name="mg.studio.activitylifecycle.Activity"></activity>
+        <activity android:name="mg.studio.activitylifecycle.Dialog"></activity>
+        <activity android:name="mg.studio.username.MainActivity"></activity>
+        <activity android:name="mg.studio.usernamefinal.MainActivity"></activity>
+        <activity android:name="mg.studio.layouts.MainActivity"></activity>
+        <activity android:name="com.example.layouts.ActivityLinearLayout"></activity>
+        <activity android:name="com.example.layouts.ActivityRelativelayout"></activity>
+        <activity android:name="com.example.layouts.MainActivity"></activity>
+        <activity android:name="mg.studio.button.MainActivity"></activity>
+        <activity android:name="mg.studio.buttontoast.MainActivity"></activity>
+        <activity android:name="mg.studio.buttonintent.MainActivity"></activity>
+        <activity android:name="cn.edu.cqu.buttontoast.MainActivity"></activity>
+        <activity android:name="cn.edu.cqu.buttontoast.SecondActivity"></activity>
+        <activity android:name="cn.edu.cqu.buttontoastt.MainActivity"></activity>
+        <activity android:name="cn.edu.cqu.buttontoastt.SecondActivity"></activity>
+        <activity android:name="com.example.imagebutton.MainActivity"></activity>
+        <activity android:name="com.example.edittext.MainActivity"></activity>
+        <activity android:name="com.example.radiobuttonsclick.MainActivity"></activity>
+        <activity android:name="com.example.listView.MainActivity"></activity>
+        <activity android:name="cn.edu.cqu.getcolor.MainActivity"></activity>
+        <activity android:name="mg.studio.gradientbackground.MainActivity"></activity>
+        <activity android:name="mg.studio.intentcaller.MainActivity"></activity>
+        <activity android:name="mg.studio.intentreceiver.SecondActivity"></activity>
+        <activity android:name="mg.studio.weather.MainActivity"></activity>
+        <activity android:name="mg.studio.weatherappdesign.MainActivity"></activity>
+        <activity android:name="mg.studio.listview_demo.MainActivity"></activity>
+        <activity android:name="mg.studio.listviewcustomadapter.MainActivity"></activity>
+        <activity android:name="mg.studio.audiorecorder.MainActivity"></activity>
+        <activity android:name="mg.studio.database.MainActivity"></activity>
+        <activity android:name="mg.studio.fragmentdemo001.MainActivity"></activity>
+        <activity android:name="mg.studio.prototyping.MainActivity"></activity>
+        <activity android:name="mg.studio.servicedemo.MainActivity"></activity>
+        <activity android:name="mg.studio.service.MainActivity"></activity>
+        <activity android:name="mg.studio.fingerprint.MainActivity"></activity>
+        <activity android:name="mg.studio.writefileexternalstorage.MainActivity"></activity>
+        <activity android:name="mg.studio.assetsfolder.MainActivity"></activity>
+        <activity android:name="mg.studio.intentpassdata.NewActivity"></activity>
+        <activity android:name="mg.studio.intentpassdata.MainActivity"></activity>
+    </application>
+
+</manifest>
